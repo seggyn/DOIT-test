@@ -29,6 +29,10 @@ switch ($_PAGE_NAME) {
         include_once 'core/api/task.php';
         break;
 
+    case 'tasks':
+        include_once 'core/api/tasks.php';
+        break;
+
     case 'sign-up':
     case 'sign-in':
         include_once 'core/api/auth.php';
